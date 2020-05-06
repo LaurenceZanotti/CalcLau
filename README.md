@@ -4,8 +4,8 @@ This is a calculator app made in several programming languages to help me initia
 
 Programming languages that this app was written:
 
-2017 - Java
-2017 - C#
-2020 - JavaScript
+. 2017 - Java
+. 2017 - C#
+. 2020 - JavaScript
 
 Esse é um app de calculadora feito em várias linguagens de programação para me ajudar a iniciar em uma linguagem desejada usando os seus fundamentos. Você deve ver esse repo sendo atualizando sempre que eu sentir o impulso de aprender uma nova tecnologia de vez em quando. A idéia começou lá em 2017 com um simples pensamento de aprender qualquer linguagem de programação com um projeto iniciante.
