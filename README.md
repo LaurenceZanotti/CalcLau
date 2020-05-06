@@ -1,4 +1,5 @@
-# CalcLau project description
+# CalcLau - The calculator made for learning programming
+
 This is a calculator app made in several programming languages to help me initiate in a desired language using its fundamentals. You might see this repo being updated whenever I feel the urge to learn a new technology every now and then. The idea started back in 2017 with the simple thought of learning any language with a simple and starter project.
 
 
