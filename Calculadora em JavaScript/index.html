@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Calculadora simples para aprender JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laurence Zanotti">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="icon" href="icon.png">
+    <title> CalcLau - Calculadora em JavaScript</title>
+    <!-- <script src="teste.js"></script> -->
+    <script src="logic.js"></script>
+
+
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo">CalcLau</h1>
+    </header>
+    <section>
+      <div class="container_principal">
+        <!-- calculator -->
+        <div id="calculadora_container">
+          <!-- visor -->
+          <div id="visor_da_calculadora">
+            <span class="texto_da_conta" id="historico_da_calculadora"></span>
+            <span class="texto_da_conta" id="resultado_da_calculadora"></span>
+          </div>
+          <!-- botoes ou corpo dela -->
+          <div id="corpo_da_calculadora">
+            <div>
+              <div onclick="numberButton(7)" class="botoes_da_calculadora">
+              7
+              </div>
+
+              <a onclick="numberButton(4)"><div class="botoes_da_calculadora">
+              4
+              </div></a>
+
+              <a onclick="numberButton(1)"><div class="botoes_da_calculadora">
+              1
+              </div></a>
+
+              <a onclick="clearCalc()"><div class="botoes_da_calculadora">
+              CE
+              </div></a>
+            </div>
+
+            <div>
+              <a onclick="numberButton(8)"><div class="botoes_da_calculadora">
+              8
+              </div></a>
+
+              <a onclick="numberButton(5)"><div class="botoes_da_calculadora">
+              5
+              </div></a>
+
+              <a onclick="numberButton(2)"><div class="botoes_da_calculadora">
+              2
+              </div></a>
+
+              <a onclick="numberButton(0)"><div class="botoes_da_calculadora">
+              0
+              </div></a>
+            </div>
+
+            <div>
+              <a onclick="numberButton(9)"><div class="botoes_da_calculadora">
+              9
+              </div></a>
+
+              <a onclick="numberButton(6)"><div class="botoes_da_calculadora">
+              6
+              </div></a>
+
+              <a onclick="numberButton(3)"><div class="botoes_da_calculadora">
+              3
+              </div></a>
+
+              <a onclick="operationResult()"><div class="botoes_da_calculadora">
+              =
+              </div></a>
+            </div>
+
+            <div>
+              <a onclick="operationButton('÷')"><div class="botoes_da_calculadora">
+              ÷
+              </div></a>
+
+              <a onclick="operationButton('x')"><div class="botoes_da_calculadora">
+              x
+              </div></a>
+
+              <a onclick="operationButton('+')"><div class="botoes_da_calculadora">
+              +
+              </div></a>
+
+              <a onclick="operationButton('-')"><div class="botoes_da_calculadora">
+              -
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      Laurence Zanotti Copyright &copy; 2020
+    </footer>
+  </body>
+</html>
