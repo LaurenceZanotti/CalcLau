@@ -7,6 +7,11 @@ body {
   font-family: sans-serif, impact;
 }
 
+img#logo {
+  width: 10em;
+  margin: 0 0.5em;
+}
+
 header {
   height: 100px;
   padding: 25px;
@@ -141,6 +146,11 @@ footer {
     padding: 0;
     background-image: radial-gradient(1100px,  #afe5ea, #00909e);
     font-family: sans-serif, impact;
+  }
+
+  img#logo {
+    width: 4em;
+    margin: 0 0.5em;
   }
 
   header {
